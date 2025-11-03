@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MOB CONSTRUCT — Ingénierie & Architecture</title>
+
+  <!-- Tailwind utilities (optional) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#accueil">
+        <span class="logo-holo" aria-hidden="true"></span>
+        <span class="brand-title" data-i18n="brand">MOB CONSTRUCT</span>
+      </a>
+
+      <nav class="nav-links" role="navigation" aria-label="Main">
+        <a href="#accueil" class="nav-link" data-i18n="nav.home">Accueil</a>
+        <a href="#services" class="nav-link" data-i18n="nav.services">Services</a>
+        <a href="#expertise-pavage" class="nav-link" data-i18n="nav.pavage">Pavage</a>
+      </nav>
+
+      <div class="right-controls">
+        <div class="lang-switch" role="tablist" aria-label="Langues">
+          <button class="lang-btn" data-lang="fr">FR</button>
+          <button class="lang-btn" data-lang="en">EN</button>
+          <button class="lang-btn" data-lang="mg">MG</button>
+        </div>
+
+        <button id="themeToggle" class="theme-toggle" aria-pressed="true" title="Basculer thème">
+          <span class="sun" aria-hidden="true">☀</span>
+          <span class="moon" aria-hidden="true">🌙</span>
+        </button>
+
+        <a href="#contact" class="btn-dore small-cta" data-i18n="cta.contact">Contact</a>
+
+        <button id="mobileMenuBtn" class="mobile-menu-btn" aria-label="Menu mobile">
+          ☰
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="accueil" class="hero-section">
+      <div class="hero-bg"></div>
+
+      <div class="hero-inner">
+        <h1 class="hero-title" data-i18n="hero.title">MOB CONSTRUCT : Bâtir l'avenir, ensemble.</h1>
+        <p class="hero-sub" data-i18n="hero.subtitle">
+          L'alliance de l'ingénierie, de l'architecture et des services pour des projets sans compromis.
+        </p>
+
+        <div class="hero-ctas">
+          <a href="#services" class="btn-dore hero-btn" data-i18n="cta.explore">Découvrir Nos Expertises</a>
+          <a href="#contact" class="btn-outline hero-btn" data-i18n="cta.quote">Demander un devis</a>
+        </div>
+      </div>
+
+      <!-- HOLO BOXES (floating boxes with values) -->
+      <div class="holo-boxes" aria-hidden="true">
+        <div class="holo-box" data-i18n="box.0.title">
+          <div class="holo-icon holo-vr"></div>
+          <div class="holo-text">
+            <div class="holo-title" data-i18n="box.0.title">Innovation</div>
+            <div class="holo-sub" data-i18n="box.0.desc">Méthodes & tech modernes</div>
+          </div>
+        </div>
+
+        <div class="holo-box" data-i18n="box.1.title">
+          <div class="holo-icon holo-plan"></div>
+          <div class="holo-text">
+            <div class="holo-title" data-i18n="box.1.title">Qualité</div>
+            <div class="holo-sub" data-i18n="box.1.desc">Contrôles & garanties</div>
+          </div>
+        </div>
+
+        <div class="holo-box" data-i18n="box.2.title">
+          <div class="holo-icon holo-building"></div>
+          <div class="holo-text">
+            <div class="holo-title" data-i18n="box.2.title">Durabilité</div>
+            <div class="holo-sub" data-i18n="box.2.desc">Matériaux responsables</div>
+          </div>
+        </div>
+
+        <div class="holo-box" data-i18n="box.3.title">
+          <div class="holo-icon holo-calendar"></div>
+          <div class="holo-text">
+            <div class="holo-title" data-i18n="box.3.title">Performance</div>
+            <div class="holo-sub" data-i18n="box.3.desc">Respect des délais</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Expertise marquee -->
+    <section id="expertise-pavage" class="section section-light">
+      <div class="container">
+        <h2 class="section-title" data-i18n="paving.title">L'Art du Sol Extérieur : Notre Maîtrise en Pavage</h2>
+
+        <div class="expertise-scroll">
+          <div id="expertise-track" class="expertise-track"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services (L'Excellence MOB) -->
+    <section id="services" class="section section-gray">
+      <div class="container">
+        <h2 class="section-title" data-i18n="excellence.title">L'Excellence MOB : Ingénierie & Services</h2>
+        <p class="section-sub" data-i18n="excellence.subtitle">De la modélisation BIM à la finition de votre cour, nous gérons votre projet de A à Z.</p>
+
+        <div id="service-cards" class="service-grid"></div>
+
+        <div class="cta-panel">
+          <div>
+            <h3 data-i18n="cta.title">Notre Expertise à votre service</h3>
+            <p data-i18n="cta.desc">De la première esquisse à la réception des travaux, MOB CONSTRUCT est votre partenaire unique.</p>
+          </div>
+          <div><a href="#contact" class="btn-dore">Démarrer Votre Projet</a></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section section-white">
+      <div class="container">
+        <h2 data-i18n="contact.title">Contactez MOB CONSTRUCT</h2>
+        <p data-i18n="contact.subtitle">Nous sommes prêts à transformer votre vision en réalité.</p>
+
+        <div class="contact-card">
+          <p data-i18n="contact.placeholder">Section formulaire à insérer — Tél / Email / Adresse</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">MOB CONSTRUCT</div>
+      <div class="footer-meta">Ingénierie, Architecture, Bâtiment & Services — © 2025</div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+
+</html>
