@@ -12,7 +12,7 @@ const I18N = {
     "cta.quote": "Demander un devis",
     "cta.contact": "Contact",
     "paving.title": "L'Art du Sol Extérieur : Notre Maîtrise en Pavage",
-    "excellence.title": "L'Excellence MOB : Ingénierie & Services",
+    "excellence.title": "L'Excellence MADESIGN  : Ingénierie & Services",
     "excellence.subtitle":
       "De la modélisation BIM à la finition de votre cour, nous gérons votre projet de A à Z.",
     "cta.title": "Notre Expertise à votre service",
