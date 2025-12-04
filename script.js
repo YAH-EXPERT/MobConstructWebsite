@@ -1,11 +1,11 @@
 // ----------------- I18N content (fr/en/mg) -----------------
 const I18N = {
   fr: {
-    brand: "MOB CONSTRUCT",
+    brand: "MADAGASCAR DESIGNER",
     "nav.home": "Accueil",
     "nav.services": "Services",
     "nav.pavage": "Pavage",
-    "hero.title": "MOB CONSTRUCT : Bâtir l'avenir, ensemble.",
+    "hero.title": "MADAGASCAR DESIGNER : Bâtir l'avenir, ensemble.",
     "hero.subtitle":
       "L'alliance de l'ingénierie, de l'architecture et des services pour des projets sans compromis.",
     "cta.explore": "Découvrir Nos Expertises",
@@ -17,8 +17,8 @@ const I18N = {
       "De la modélisation BIM à la finition de votre cour, nous gérons votre projet de A à Z.",
     "cta.title": "Notre Expertise à votre service",
     "cta.desc":
-      "De la première esquisse à la réception des travaux, MOB CONSTRUCT est votre partenaire unique.",
-    "contact.title": "Contactez MOB CONSTRUCT",
+      "De la première esquisse à la réception des travaux, MADAGASCAR DESIGNER est votre partenaire unique.",
+    "contact.title": "Contactez MADAGASCAR DESIGNER",
     "contact.subtitle":
       "Nous sommes prêts à transformer votre vision en réalité.",
     "contact.placeholder":
@@ -33,11 +33,11 @@ const I18N = {
     "box.3.desc": "Respect des délais"
   },
   en: {
-    brand: "MOB CONSTRUCT",
+    brand: "MADAGASCAR DESIGNER",
     "nav.home": "Home",
     "nav.services": "Services",
     "nav.pavage": "Paving",
-    "hero.title": "MOB CONSTRUCT: Building the future, together.",
+    "hero.title": "MADAGASCAR DESIGNER: Building the future, together.",
     "hero.subtitle":
       "The alliance of engineering, architecture and services for projects without compromise.",
     "cta.explore": "Discover our expertise",
@@ -49,8 +49,8 @@ const I18N = {
       "From BIM modeling to finishing your yard, we manage your project end-to-end.",
     "cta.title": "Our Expertise at Your Service",
     "cta.desc":
-      "From the first sketch to handover, MOB CONSTRUCT is your single partner.",
-    "contact.title": "Contact MOB CONSTRUCT",
+      "From the first sketch to handover, MADAGASCAR DESIGNER is your single partner.",
+    "contact.title": "Contact MADAGASCAR DESIGNER",
     "contact.subtitle": "We're ready to turn your vision into reality.",
     "contact.placeholder": "Contact form coming — Phone / Email / Address",
     "box.0.title": "Innovation",
@@ -63,11 +63,11 @@ const I18N = {
     "box.3.desc": "On-time delivery"
   },
   mg: {
-    brand: "MOB CONSTRUCT",
+    brand: "MADAGASCAR DESIGNER",
     "nav.home": "Fandraisana",
     "nav.services": "Serivisy",
     "nav.pavage": "Pavage",
-    "hero.title": "MOB CONSTRUCT: Manorina ny ho avy miaraka.",
+    "hero.title": "MADAGASCAR DESIGNER: Manorina ny ho avy miaraka.",
     "hero.subtitle":
       "Fifangaroan'ny injeniera, ara-rafitra sy serivisy ho an'ny tetikasa tsy misy fampitsaharana.",
     "cta.explore": "Jereo ny fahaizantsika",
@@ -79,8 +79,8 @@ const I18N = {
       "Avy amin'ny modely BIM ka hatramin'ny famaranana, miandraikitra ny tetikasa manontolo izahay.",
     "cta.title": "Ny fahaiza-manaonay ho anao",
     "cta.desc":
-      "Manomboka amin'ny sary voalohany hatramin'ny fandraisana, MOB CONSTRUCT no mpiara-miasa anao.",
-    "contact.title": "Mifandraisa amin'ny MOB CONSTRUCT",
+      "Manomboka amin'ny sary voalohany hatramin'ny fandraisana, MADAGASCAR DESIGNER no mpiara-miasa anao.",
+    "contact.title": "Mifandraisa amin'ny MADAGASCAR DESIGNER",
     "contact.subtitle": "Vonona izahay hamadika ny hevitrao ho zava-misy.",
     "contact.placeholder":
       "Fizarana famenoana ho ampidirina — Telefaonina / Mailaka / Adiresy",
@@ -370,7 +370,7 @@ init();
 
 // ----------------- small performance tips printed in console (developer friendly) -----------------
 console.log(
-  "MOB CONSTRUCT UI loaded — theme:",
+  "MADAGASCAR DESIGNER UI loaded — theme:",
   localStorage.getItem(STORAGE_THEME) || defaultTheme,
   "lang:",
   localStorage.getItem(STORAGE_LANG) || defaultLang
